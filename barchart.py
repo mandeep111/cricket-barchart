@@ -62,6 +62,6 @@ bcr.bar_chart_race(
     cmap='Antique',
     writer='ffmpeg',
     period_summary_func=lambda v, r: {'x': .99, 'y': .18,
-    's': f'Total Matches Won Weekly: {v.sum():,.0f}',
-    'ha': 'right', 'size': 8, 'family': 'Courier New'},
+    's': f'Total Matches: {v.sum():,.0f}',
+    'ha': 'right', 'size': 12, 'family': 'Courier New'},
 )
