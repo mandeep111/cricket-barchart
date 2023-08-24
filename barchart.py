@@ -44,6 +44,7 @@ print(weekly_wins)
 # total_matches_played_weekly = weekly_wins.sum(axis=1)
 # print(total_matches_played_weekly)
 
+# create bar chart race
 bcr.bar_chart_race(
     title='Top 15 Cricket Teams',
     df=weekly_wins,
